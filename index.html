@@ -1,12 +1,105 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Soporte - fjtz</title>
-  </head>
-  <body>
-    <h1>Soporte de la app fjtz</h1>
-    <p>Para dudas o problemas, contáctanos en: <strong>joaquinalvarezme@gmail.com</strong></p>
-    <p>También puede mandar mensaje a el numero de telefono +52 877 148 4368.</p>
-  </body>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Política de Privacidad – {{AppName}}</title>
+  <meta name="description" content="Política de privacidad de {{AppName}}. Esta app no recopila ni comparte datos personales.">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;line-height:1.6;margin:24px;max-width:900px}
+    h1,h2{line-height:1.25} code,pre{background:#f5f5f7;padding:2px 6px;border-radius:6px}
+    .lang{margin-top:40px;padding-top:16px;border-top:1px solid #e6e6e6}
+    a{color:#0b57d0;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .meta{color:#666;font-size:0.95rem}
+  </style>
+</head>
+<body id="app-{{AppName | lower}}-privacy">
+  <header>
+    <h1>Política de Privacidad – {{AppName}}</h1>
+    <p class="meta">Desarrollador: {{DeveloperName}} · Contacto: <a href="mailto:{{ContactEmail}}">{{ContactEmail}}</a></p>
+    <p class="meta">Fecha de vigencia: 24 agosto 2025</p>
+  </header>
+
+  <section>
+    <h2>Resumen</h2>
+    <p><strong>{{AppName}}</strong> es una aplicación que funciona completamente <strong>offline</strong> y no utiliza servidores externos ni servicios de terceros para procesar datos personales. <strong>No recopilamos, almacenamos, compartimos ni vendemos información personal del usuario.</strong></p>
+  </section>
+
+  <section>
+    <h2>Datos que tratamos</h2>
+    <ul>
+      <li><strong>Datos personales:</strong> No se recopilan.</li>
+      <li><strong>Datos sensibles:</strong> No se recopilan.</li>
+      <li><strong>Datos de uso/diagnóstico:</strong> No se recopilan.</li>
+      <li><strong>Almacenamiento local del dispositivo:</strong> La app puede guardar <em>preferencias</em> o contenido generado por el usuario <strong>solo en el dispositivo</strong>. Este contenido no se transmite fuera del dispositivo.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Permisos y acceso</h2>
+    <p>{{AppName}} no requiere cuentas, registro ni acceso a contenido restringido. Todas las funciones están disponibles al instalar la app.</p>
+  </section>
+
+  <section>
+    <h2>Publicidad y compras</h2>
+    <p>La aplicación <strong>no muestra anuncios</strong> y <strong>no incluye compras dentro de la app</strong>.</p>
+  </section>
+
+  <section>
+    <h2>Niños y menores de edad</h2>
+    <p>La app está dirigida a público <strong>13+</strong> y no está diseñada para niños menores de 13 años.</p>
+  </section>
+
+  <section>
+    <h2>Transferencias internacionales</h2>
+    <p>No aplican, ya que no se transmiten datos a servidores externos.</p>
+  </section>
+
+  <section>
+    <h2>Cambios a esta política</h2>
+    <p>Podemos actualizar esta política para reflejar mejoras de la app. Publicaremos la fecha de la última actualización en esta página.</p>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <p>Para preguntas sobre esta política, escribe a <a href="mailto:{{ContactEmail}}">{{ContactEmail}}</a>.</p>
+  </section>
+
+  <!-- English version -->
+  <section class="lang" lang="en">
+    <h1>Privacy Policy – {{AppName}}</h1>
+    <p class="meta">Developer: {{DeveloperName}} · Contact: <a href="mailto:{{ContactEmail}}">{{ContactEmail}}</a></p>
+    <p class="meta">Effective date: Aug 24, 2025</p>
+
+    <h2>Summary</h2>
+    <p><strong>{{AppName}}</strong> works fully <strong>offline</strong>. We do not collect, store, share, or sell personal data. No external servers or third-party services are used for processing personal information.</p>
+
+    <h2>Data we handle</h2>
+    <ul>
+      <li><strong>Personal data:</strong> Not collected.</li>
+      <li><strong>Sensitive data:</strong> Not collected.</li>
+      <li><strong>Usage/diagnostics:</strong> Not collected.</li>
+      <li><strong>On-device storage:</strong> The app may store <em>preferences</em> or user-generated content <strong>on the device only</strong>. Nothing is transmitted off the device.</li>
+    </ul>
+
+    <h2>Access & gating</h2>
+    <p>No account, sign-in, or gated content is required. All features are available upon install.</p>
+
+    <h2>Ads & purchases</h2>
+    <p>No ads and no in-app purchases.</p>
+
+    <h2>Children</h2>
+    <p>Intended for users <strong>13+</strong>. Not designed for children under 13.</p>
+
+    <h2>International transfers</h2>
+    <p>Not applicable since no data leaves the device.</p>
+
+    <h2>Changes</h2>
+    <p>We may update this policy; any changes will be posted here with the new date.</p>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:{{ContactEmail}}">{{ContactEmail}}</a></p>
+  </section>
+</body>
 </html>
